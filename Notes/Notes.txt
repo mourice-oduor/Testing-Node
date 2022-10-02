@@ -1,3 +1,11 @@
 TESTING NODEJS APPLICATIONS:
 
 01- Test =>> Initial tests 
+
+	Assertion Testing;
+		https://www.javatpoint.com/nodejs-assertion-testing
+		
+	Test Runners:
+		Mocha,
+		Jest,
+		Chai.
