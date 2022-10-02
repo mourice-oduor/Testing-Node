@@ -11,5 +11,8 @@
   },
   "keywords": [],
   "author": "mourice-oduor",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.0.0"
+  }
 }
