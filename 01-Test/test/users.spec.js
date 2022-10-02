@@ -40,7 +40,34 @@ describe("findUserByEmail function", () => {
     // assert that the response is a promise
     assert.equal(response.message, "User found successfully.");
   });
+
+    // d. using the async await method with try catch
+    it("findUserByEmail (using async await method with try catch))", async () => {
+        // call the function
+        try {
+            const response = await findUserByEmail("morys0@gmail.com");
+            // assert that the response is a promise
+            assert.equal(response.message, "User found successfully.");
+        } catch (error) {
+            console.log(error);
+        }
+
+    });
+
+    // e. rejects with an error if the user with the email is not found
+    it("findUserByEmail (should reject with an error if the user with the email is not found)", () => {
+        // call the function
+        return findUserByEmail("morris@2090").then(() => {
+            // assert that the response is a promise
+            assert.fail("This should not have passed");
+        }), (error) => {
+            assert.equal(error.message, "User with email: morris@2090 was not found.");
+        }
+
+    });
 });
+
+
 
 // 2. Test the find User by id function
 // a. Test that the function returns a promise
