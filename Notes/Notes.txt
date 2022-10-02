@@ -11,4 +11,7 @@ TESTING NODEJS APPLICATIONS:
 		Chai.
 		
 	Testing Async Functions:
+		Using Async/Await
+		
+	Testing Rejected Promises:
 		
