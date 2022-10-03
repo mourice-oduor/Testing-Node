@@ -108,4 +108,31 @@ describe("findUserById function", () => {
     // assert that the response is a promise
     assert.equal(response.message, "User found successfully.");
   });
+
+  // d. using the async await method with try catch
+  it("findUserById (using async await method with try catch))", async () => {
+    // call the function
+    try {
+      const response = await findUserById(1);
+      // assert that the response is a promise
+      assert.equal(response.message, "User found successfully.");
+    } catch (error) {
+      console.log(error);
+    }
+  });
+
+  // e. rejects with an error if the user with the id is not found
+  it("findUserById (should reject with an error if the user with the id is not found)", () => {
+    // call the function
+    return findUserById(100).then(
+      () => {
+        // assert that the response is a promise
+        assert.fail("This should not have passed");
+      },
+      (error) => {
+        assert.equal(error.message, "User with id: 100 was not found.");
+      }
+    );
+  });
+
 });
