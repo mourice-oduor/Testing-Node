@@ -15,3 +15,13 @@ TESTING NODEJS APPLICATIONS:
 		
 	Testing Rejected Promises:
 		
+	Test Coverage Reporting:
+		https://stackoverflow.com/questions/70173964/how-to-generate-the-coverage-report-using-mocha-in-vs-code
+		https://medium.com/the-web-tub/mocha-chai-js-unit-testing-for-es6-with-istanbul-code-coverage-11b2a141a446
+		https://blog.logrocket.com/testing-node-js-mocha-chai/
+		
+		https://www.npmjs.com/package/nyc
+			npm i nyc --save-dev
+			
+	Migrating to Jest:
+		
