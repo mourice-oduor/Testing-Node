@@ -7,13 +7,14 @@
     "test": "test"
   },
   "scripts": {
-    "test": "nyc mocha"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "mourice-oduor",
   "license": "ISC",
   "devDependencies": {
     "expect": "^29.1.2",
+    "jest": "^29.1.2",
     "mocha": "^10.0.0",
     "nyc": "^15.1.0"
   }
