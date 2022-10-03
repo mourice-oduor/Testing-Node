@@ -24,4 +24,6 @@ TESTING NODEJS APPLICATIONS:
 			npm i nyc --save-dev
 			
 	Migrating to Jest:
+		https://jestjs.io/docs/getting-started
+		npm install --save-dev jest
 		
