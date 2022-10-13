@@ -1,5 +1,7 @@
 // Import add function from add.js
 const add = require('../add')
+
+// 1. Using Mocha
 // const expect = require('expect')
 // const assert = require('assert')
 
@@ -13,7 +15,7 @@ const add = require('../add')
 //     })
 // })
 
-// Using jest to test the add function from add.js file in the root folder of the project (01-Test) folder 
+// 2. Using jest to test the add function from add.js file in the root folder of the project (01-Test) folder 
 describe('The add function', () => {
     it('adds two numbers', () => {
         const actual = add(1, 3)
