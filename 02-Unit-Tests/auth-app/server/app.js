@@ -10,7 +10,16 @@ import config from '@server/config'
 import v1Router from '@server/routes'
 import webpackConfig from '@/webpack.config'
 
-Mongoose.connect(config.databaseUrl[config.environment], { useNewUrlParser: true })
+// Connect to Database
+Mongoose.connect(config.databaseUrl[config.environment], { useNewUrlParser: true, useUnifiedTopology: true }).then(
+    () => {
+        console.log('Database connected')
+    },
+    (err) => {
+        console.log('Database connection error: ' + err)
+    }
+)
+
 
 const app = new Express()
 
