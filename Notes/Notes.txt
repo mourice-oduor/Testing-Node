@@ -43,11 +43,24 @@ TESTING NODEJS APPLICATIONS:
 		
 		
 02- Unit Tests =>> Unit Testing Node.js Applications:
+	
+	1. Auth App
  	
  	Generate a fullstack Javascript project using:
  		npm i -g @fullstackjs/create-fullstackjs-app
  		
  	Then:
  		create-fullstackjs-app auth-app   //Inside your project Dir.
+ 	
+ 	a) Test User Model Using Jest:
+ 	b) Mocking packages with Jest: // __mocks__
+ 	c) Testing Instance Methods:
+ 	d) Mock Functions with Jest and Spies
+ 	e) Testing Middlewares(Auth)
+ 	f) Refactoring to test utils
+ 	
+ 	
+03- Integration Tests =>>  Functinal Testing Node.js Applications:
+ 	
  		
 		
