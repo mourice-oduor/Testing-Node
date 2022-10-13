@@ -1,4 +1,18 @@
 TESTING NODEJS APPLICATIONS:
+		
+		UNIT TESTING:
+	https://www.geeksforgeeks.org/unit-testing-of-node-js-application/
+	https://www.browserstack.com/guide/unit-testing-for-nodejs-using-jest
+	https://brightsec.com/blog/unit-testing-in-nodejs/
+	https://livebook.manning.com/book/node-js-in-action-second-edition/chapter-9/10
+	
+		ADVANCE TESTING:
+	https://www.youtube.com/watch?v=-2zP494wdUY
+	https://blog.risingstack.com/getting-node-js-testing-and-tdd-right-node-js-at-scale/
+	https://subscription.packtpub.com/book/web-development/9781788623322/2/ch02lvl1sec20/testing-nodejs
+	https://code.tutsplus.com/tutorials/advanced-unit-testing-techniques-in-javascript--net-32892
+	
+	
 
 01- Test =>> Initial tests 
 
