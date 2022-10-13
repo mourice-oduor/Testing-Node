@@ -10,6 +10,7 @@
         "@": "./",
         "@client": "./client",
         "@server": "./server",
+        "@tests": "./__tests__",
         "@store": "./client/store",
         "@pages": "./client/pages",
         "@models": "./server/models",
@@ -18,7 +19,7 @@
         "@validators": "./server/validators",
         "@components": "./client/components",
         "@middleware": "./server/middleware",
-        "@controllers": "./server/controllers",
+        "@controllers": "./server/controllers"
       }
     }],
     "@babel/plugin-proposal-class-properties",
