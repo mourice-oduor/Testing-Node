@@ -44,5 +44,6 @@ TESTING NODEJS APPLICATIONS:
 		
 02- Unit Tests =>> Unit Testing Node.js Applications:
  	
- 	
+ 	Generate a fullstack Javascript project using:
+ 		npm i -g @fullstackjs/create-fullstackjs-app
 		
