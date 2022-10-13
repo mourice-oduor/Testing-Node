@@ -46,4 +46,8 @@ TESTING NODEJS APPLICATIONS:
  	
  	Generate a fullstack Javascript project using:
  		npm i -g @fullstackjs/create-fullstackjs-app
+ 		
+ 	Then:
+ 		create-fullstackjs-app auth-app   //Inside your project Dir.
+ 		
 		
