@@ -55,12 +55,27 @@ TESTING NODEJS APPLICATIONS:
  	a) Test User Model Using Jest:
  	b) Mocking packages with Jest: // __mocks__
  	c) Testing Instance Methods:
- 	d) Mock Functions with Jest and Spies
+ 	d) Setup and Teardown: Mock Functions with Jest and Spies
  	e) Testing Middlewares(Auth)
  	f) Refactoring to test utils
  	
  	
-03- Integration Tests =>>  Functinal Testing Node.js Applications:
- 	
+ 	2) Using supertest:
+ 		https://www.npmjs.com/package/supertest
+ 		https://dev.to/franciscomendes10866/testing-express-api-with-jest-and-supertest-3gf
+ 		https://zellwk.com/blog/endpoint-testing/
  		
+ 	b) Testing Registration:
+ 	c) Testing Validations:
+ 	d) Testing the emailConfirmation process:
+ 		
+ 	
+03- Testing with Cypress:
+	https://blog.logrocket.com/how-to-write-end-to-end-tests-cypress-nodejs/
+	https://cloudnweb.dev/2019/04/e2e-testing-in-node-js-using-cypress-io/
+	https://www.sitepoint.com/cypress-testing/
+	https://circleci.com/blog/api-testing-with-cypress/
+	https://www.freecodecamp.org/news/test-a-react-app-with-jest-testing-library-and-cypress/
+	https://brunaaguiarvaz.medium.com/api-testing-with-cypress-and-nodejs-b2e5e692c56d
+	
 		
