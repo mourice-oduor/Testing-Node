@@ -1,16 +1,15 @@
 module.exports = {
-    preset: 'ts-jest',
-    testEnvironment: 'node',
-    testMatch: ['**/*.test.ts'],
-    setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
-    moduleNameMapper: {
-        '^@fullstackjs/mail$': '<rootDir>/__mocks__/@fullstackjs/mail.ts',
-        '^@models/(.*)$': '<rootDir>/server/models/$1',
-        '^@config$': '<rootDir>/server/config.ts',
-    },
-    globals: {
-        'ts-jest': {
-            tsconfig: 'tsconfig.json',
-        },
-    },
+    testPathIgnorePatterns: ['/utils/'],
+    testTimeout: 10000,
+    // testEnvironment: 'node',
+    // testMatch: ['**/tests/**/*.test.js'],
+    // collectCoverage: true,
+    // collectCoverageFrom: ['**/src/**/*.js'],
+    // coverageDirectory: 'coverage',
+    // coverageReporters: ['text', 'lcov'],
+    // coveragePathIgnorePatterns: ['/node_modules/', '/tests/'],
+    // setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
+    // moduleNameMapper: {
+    //     '^@/(.*)$': '<rootDir>/src/$1',
+    // },
 };
