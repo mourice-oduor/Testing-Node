@@ -1,7 +1,6 @@
 import path from 'path'
 import Express from 'express'
 import Webpack from 'webpack'
-import Mongoose from 'mongoose'
 import bodyParser from 'body-parser'
 import WebpackHotMiddleware from 'webpack-hot-middleware'
 import WebpackDevMiddleware from 'webpack-dev-middleware'
@@ -9,16 +8,6 @@ import WebpackDevMiddleware from 'webpack-dev-middleware'
 import config from '@server/config'
 import v1Router from '@server/routes'
 import webpackConfig from '@/webpack.config'
-
-// Connect to Database
-Mongoose.connect(config.databaseUrl[config.environment], { useNewUrlParser: true, useUnifiedTopology: true }).then(
-    () => {
-        console.log('Database connected')
-    },
-    (err) => {
-        console.log('Database connection error: ' + err)
-    }
-)
 
 
 const app = new Express()
