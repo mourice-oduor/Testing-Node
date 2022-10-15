@@ -78,4 +78,6 @@ TESTING NODEJS APPLICATIONS:
 	https://www.freecodecamp.org/news/test-a-react-app-with-jest-testing-library-and-cypress/
 	https://brunaaguiarvaz.medium.com/api-testing-with-cypress-and-nodejs-b2e5e692c56d
 	
+	
+	
 		
